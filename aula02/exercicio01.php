@@ -1,14 +1,22 @@
-<?php 
+<?php
 
-    $nome = 'Jailson';
-    $idade = 32;
-    $mesada = 50000
+    $nome = "Pietro";
+    $idade = 16;
+    $valor = 100;
 
-
-    echo "Olá qual o seu nome?";
+    echo "Olá, Qual o seu nome?";
+    echo "<br>";
     echo $nome;
-    echo "Oi $nome! Quantos anos você tem?";
+    echo "<br>";
+    echo "Oi, $nome! Qual a sua idade? ";
+    echo "<br>";
     echo $idade;
-
-
+    echo "<br>";
+    echo "Então voce tem $idade!!!";
+    echo "<br>";
+    echo " Quanto voce ganha $nome?";
+    echo "<br>";
+    echo $valor;
+    echo "<br>";
+    echo "$valor Eu espero que seja por hora e não por ano!!!rsrsrs";
 ?>
