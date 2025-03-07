@@ -1,8 +1,7 @@
 <?php
-    $nota1 = $_GET =['nota1'];
-    $nota2 = $_GET =['nota2'];
-    $nota3 = $_GET =['nota3'];
-
-    $media = ($nota1+$nota2+$nota3)/3;
+    $nota01 = $_GET ['cnota1'];
+    $nota02 = $_GET ['cnota2'];
+    $nota03 = $_GET ['cnota3'];
+    $media = ($nota01+$nota02+$nota03)/3;
     echo "Sua média é: $media";
 ?>
